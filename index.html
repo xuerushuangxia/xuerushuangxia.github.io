@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Su Zirui | Research & Projects</title>
+  <meta name="description" content="Su Zirui, Electronic Information Engineering undergraduate at UESTC. Computer vision learning projects, biomedical laboratory automation, and the Lian Xiaoji campus community platform.">
+  <link rel="canonical" href="https://xuerushuangxia.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Su Zirui | Research &amp; Projects">
+  <meta property="og:description" content="Research interests, engineering projects, education and service of Su Zirui, an Electronic Information Engineering undergraduate at UESTC.">
+  <meta property="og:url" content="https://xuerushuangxia.github.io/">
+  <meta property="og:image" content="https://xuerushuangxia.github.io/assets/portrait.jpg">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page" id="home">
+  <header class="site-nav">
+    <a class="home-link" href="#about">Su Zirui</a>
+    <nav aria-label="Main navigation">
+      <a href="#work" data-zh="科研与项目">Research & Projects</a>
+      <a href="#experience" data-zh="教育与实习">Experience</a>
+      <a href="#service" data-zh="学生经历">Service</a>
+      <a href="assets/Su_Zirui_CV.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+    <button id="language" aria-label="Switch to Chinese">中文</button>
+  </header>
+  <main id="main">
+    <section class="intro" id="about" aria-labelledby="name">
+      <div class="biography">
+        <h1 id="name">Su Zirui <span lang="zh-CN">苏子睿</span></h1>
+        <p class="byline" data-zh="电子科技大学 · 电子信息工程本科生">Electronic Information Engineering undergraduate · UESTC</p>
+        <p data-zh="我目前就读于电子科技大学电子信息工程专业（2024 年入学），关注计算机视觉、嵌入式系统和人工智能在实际场景中的应用。">I am an undergraduate in Electronic Information Engineering at the University of Electronic Science and Technology of China (UESTC), where I began my studies in 2024. My interests include computer vision, embedded systems and practical applications of AI.</p>
+        <p data-zh="目前，我在探索校园视频分析的学习原型，并持续开发“黎安校际”跨校社区平台，包含网页和微信小程序两个客户端。此前，我在格拉斯哥大学暑期项目中参与了 Arduino 控制蠕动泵的实验室自动化探索，也在 UCloud 参加过产品开发实习。">I am currently exploring a <a href="#vision">campus video analysis prototype</a> and developing <a href="#lian-xiaoji">Lian Xiaoji</a>, a cross-campus community platform with web and WeChat clients. Previously, I worked on Arduino-based laboratory automation during a summer programme at the University of Glasgow and interned at UCloud.</p>
+        <p class="seeking" data-zh="希望通过科研实习，进一步积累视觉算法、嵌入式系统与智能医疗应用方面的研究和实践经验。">I am seeking research internship opportunities to deepen my experience in visual computing, embedded systems and AI applications in healthcare.</p>
+        <div class="contact-links"><a href="mailto:3073028s@student.gla.ac.uk" data-zh="邮箱">Email</a><span>/</span><a href="assets/Su_Zirui_CV.pdf" target="_blank" rel="noopener" data-zh="英文简历 PDF">CV (PDF)</a><span>/</span><a href="assets/Su_Zirui_CV.docx" download data-zh="可编辑简历">CV (Word)</a><span>/</span><a href="#service" data-zh="学生领导与志愿服务">Leadership & service</a></div>
+      </div>
+      <figure class="profile-photo"><img src="assets/portrait.jpg" alt="Portrait of Su Zirui" width="400" height="601"><figcaption>3073028s@student.gla.ac.uk</figcaption></figure>
+    </section>
+
+    <section id="work" aria-labelledby="research-title">
+      <div class="section-head"><h2 id="research-title" data-zh="科研与项目">Research & Projects</h2><a href="assets/Su_Zirui_CV.pdf" target="_blank" rel="noopener" data-zh="完整简历 ↗">Full CV ↗</a></div>
+      <p class="section-intro" data-zh="当前工作围绕视觉检测、嵌入式控制与校园应用展开。以下列出项目内容、已有工作及相关材料。">My current work spans visual detection, embedded control and campus applications. Below are the projects, work completed so far and available materials.</p>
+
+      <article class="project-row" id="vision">
+        <figure class="project-figure"><a href="assets/vision-showcase.html" target="_blank" rel="noopener"><img src="assets/vision-output.jpg" alt="Prototype output on an OpenCV public sample, showing person boxes, a face box and facial landmarks" width="640" height="480"></a><figcaption data-zh="公开样例上的实际检测输出">Prototype output on a public sample</figcaption></figure>
+        <div class="project-text">
+          <h3><a href="assets/vision-showcase.html" target="_blank" rel="noopener" data-zh="校园视频分析与视觉检测原型">Computer Vision for Campus Video Analysis</a></h3>
+          <p class="project-meta" data-zh="进行中 · 科研学习原型">Ongoing · Learning prototype</p>
+          <p data-zh="结合 YuNet 人脸检测、HOG + SVM 人体检测，以及区域和持续时间规则，探索人脸采集、疑似离岗和巡检到位场景。">A learning prototype combining YuNet face detection, HOG + SVM person detection, and spatial and temporal rules to explore face capture, suspected absence and patrol-presence scenarios.</p>
+          <p data-zh="当前原型已包含检测框与特征点、人脸截图，以及用于上传视频、人工标注和导出结果的本地网页。已有材料使用公开样例与模拟记录，真实校园及夜间效果仍需验证。">The current prototype includes detection boxes, landmarks and face crops, plus a local interface for video upload, manual annotations and result export. Existing materials use public samples and simulated records; campus and night-time performance remain unvalidated.</p>
+          <p class="resource-links"><a href="assets/vision-showcase.html" target="_blank" rel="noopener" data-zh="模型演示 ↗">Interactive demo ↗</a></p>
+          <details id="vision-details"><summary data-zh="技术与验证范围">Technical details and validation scope</summary><div class="detail-body">
+            <ul><li data-zh="Python / OpenCV；YuNet 输出人脸框、五个特征点和截图。">Python / OpenCV; YuNet produces face boxes, five facial landmarks and face crops.</li><li data-zh="区域与时间规则用于连续无人计时、恢复确认及巡检停留判断。">Region and timing rules support absence duration, recovery confirmation and patrol dwell-time checks.</li><li data-zh="本地网页支持视频上传、区域配置、逐帧查看、人工事件标注、报告导出和试验记录。">The local interface supports video upload, region configuration, frame review, manual event annotation, report export and experiment records.</li><li data-zh="模型演示展示已有输出，不会在浏览器中重新运行模型。HOG 基线存在漏检与框选不完整；临时跟踪编号不代表人员身份。">The demo displays existing outputs rather than rerunning inference in the browser. The HOG baseline has missed and partial detections; temporary tracking IDs do not verify identity.</li></ul>
+          </div></details>
+        </div>
+      </article>
+
+      <article class="project-row" id="lian-xiaoji">
+        <figure class="project-figure"><a href="#lian-details" data-open="lian-details"><img src="assets/lian-project.webp" alt="Lian Xiaoji campus community project graphic" width="640" height="336" loading="lazy"></a><figcaption data-zh="同一平台 · 网页与微信小程序">One platform · Web and WeChat clients</figcaption></figure>
+        <div class="project-text">
+          <h3><a href="#lian-details" data-open="lian-details" data-zh="黎安校际：跨校社区平台">Lian Xiaoji: A Cross-campus Community Platform</a></h3>
+          <p class="project-meta" data-zh="开发中 · 网页端与微信小程序端">In development · Website and WeChat mini program</p>
+          <p data-zh="面向校园交流、互助、市集信息与跨校活动开发的社区平台。网页和微信小程序是同一项目的两个客户端，连接共用后端服务。">A community platform for campus discussion, mutual support, marketplace information and cross-campus activities. Its website and native WeChat mini program are two clients of the same project, connected to shared backend services.</p>
+          <p data-zh="当前开发范围包括帖子与评论、点赞收藏、个人资料，以及身份审核和内容管理。网页使用 React / TypeScript；后端包含 Next.js 与 PostgreSQL；小程序使用 JavaScript、WXML 和 WXSS。">Current development covers posts and comments, likes and saves, profiles, identity review and content management. The web client uses React / TypeScript, the backend includes Next.js and PostgreSQL, and the mini program uses JavaScript, WXML and WXSS.</p>
+          <details id="lian-details"><summary data-zh="网页、小程序与共用后端">Website, WeChat client and shared backend</summary><div class="detail-body">
+            <h4 data-zh="网页端">Website</h4><p data-zh="社区板块、帖子流与发布、评论、点赞、收藏、个人资料，以及身份审核、内容管理和操作记录等后台功能。">Community channels, feeds and publishing, comments, likes, saved posts and profiles, alongside administration for identity review, content management and operation records.</p>
+            <h4 data-zh="微信小程序端">WeChat mini program</h4><p data-zh="以首页、市集、发布、消息、我的组织导航。游客可浏览帖子、详情和评论，主动登录后参与发布与互动。">Home, marketplace, publishing, messages and profile navigation. Guests can browse posts, details and comments; users choose to sign in before publishing or interacting.</p>
+            <h4 data-zh="共用后端与当前进度">Shared backend and current stage</h4><p data-zh="两个客户端共用后端服务与 PostgreSQL 数据库；网页和微信账号目前暂不合并。项目仍在功能迭代与发布准备中。">Both clients use shared backend services and a PostgreSQL database; web and WeChat accounts are not currently merged. Feature iteration and release preparation are ongoing.</p>
+          </div></details>
+        </div>
+      </article>
+
+      <article class="project-row" id="glasgow">
+        <figure class="project-figure"><img src="assets/pump-workflow.svg" alt="Conceptual diagram: Arduino controller, peristaltic pump, liquid transfer" width="640" height="320" loading="lazy"><figcaption data-zh="控制流程示意 · 非原型照片">Conceptual control workflow</figcaption></figure>
+        <div class="project-text"><h3 data-zh="Arduino 控制的生物医学实验室自动化">Arduino-based Biomedical Laboratory Automation</h3><p class="project-meta" data-zh="格拉斯哥大学 · 暑期科研项目 · 2026 年 7—8 月">University of Glasgow · Summer research programme · Jul–Aug 2026</p><p class="supervisor" data-zh="导师：Huabing Yin">Supervisor: Huabing Yin</p><p data-zh="在生物医学实验室自动化项目中，编写 Arduino 程序控制蠕动泵，连接控制硬件并开展初步硬件测试，探索自动液体传输流程。">Programmed an Arduino to control a peristaltic pump, connected the control hardware and carried out preliminary hardware tests to explore automated liquid transfer in a biomedical laboratory workflow.</p><p data-zh="在项目结束时汇报已开展的工作。个人参与达到编程、硬件连接与初步测试阶段；整体自动化项目未在暑期项目内完成。">Presented the work undertaken at the end of the programme. Contributions reached programming, hardware connections and preliminary testing; the full automation project was not completed within the placement.</p></div>
+      </article>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-title"><h2 id="experience-title" data-zh="教育与实习经历">Education & Experience</h2>
+      <div class="dated-entry"><div class="entry-date" data-zh="2024 — 至今">2024–Present</div><div><h3 data-zh="电子科技大学">University of Electronic Science and Technology of China</h3><p data-zh="电子信息工程学士在读">BEng in Electronic Information Engineering</p><p class="subtle" data-zh="学习领域：编程、嵌入式系统、电路分析、电子系统设计。">Areas of study: programming, embedded systems, circuit analysis and electronic system design.</p></div></div>
+      <div class="dated-entry"><div class="entry-date" data-zh="2025.12 — 2026.02">Dec 2025–Feb 2026</div><div><h3 data-zh="UCloud · 创新产品部实习生">UCloud · Innovation Product Department Intern</h3><p data-zh="支持团队网页项目的前后端开发，协助页面设计、实现与测试，积累面向产品的开发与协作经验。">Supported front-end and back-end development for web-based projects, assisting with webpage design, implementation and testing within a product team.</p></div></div>
+    </section>
+
+    <section id="service" aria-labelledby="service-title"><span id="journey" class="anchor-alias"></span><h2 id="service-title" data-zh="学生领导与志愿服务">Leadership & Service</h2>
+      <div class="service-item"><div class="service-title"><h3 data-zh="班长 · 电子科技大学">Class Monitor · UESTC</h3><span data-zh="2024 — 至今">2024–Present</span></div><p data-zh="协调班级日常事务，承担师生沟通的联系职责，协助信息传达，并支持班级集体事务与活动组织。">Coordinate day-to-day class affairs, serve as a communication link between teachers and students, assist with information sharing, and support class activities and group organisation.</p></div>
+      <div class="service-item"><h3 data-zh="学生社团负责人">Student Society Lead</h3><p data-zh="负责学院英国相关学生社团，参与校园文化与社交活动的策划和组织。已组织的活动包括万圣节与圣诞节庆祝活动、晚会，以及 ceilidh 舞会。">Led the college’s UK-affiliated student society and organised cultural and social activities, including Halloween and Christmas celebrations, evening parties and a ceilidh.</p></div>
+      <div class="service-item"><h3 data-zh="青年志愿者协会骨干成员">Core Member, Youth Volunteer Association</h3><p data-zh="参与学生志愿服务和社区服务活动的策划与支持，在团队中配合完成活动组织及开展相关工作。">Helped plan and support student volunteer and community service activities, working with other members on event organisation and delivery.</p></div>
+      <div class="service-item"><div class="service-title"><h3 data-zh="“Blue Heart”社会实践团队成员">Blue Heart Social Practice Team</h3><span>2025</span></div><p data-zh="参与活动策划与现场组织，支持团队实践活动开展。团队获得省级优秀社会实践团队荣誉。">Contributed to activity planning and on-site organisation. The team received provincial-level outstanding social practice recognition.</p></div>
+      <p class="service-note" data-zh="另有学生及志愿活动的社交媒体内容策划、文案撰写与线上宣传经验。">Additional experience includes social media content planning, post writing and online publicity for student and volunteer activities.</p>
+    </section>
+
+    <section class="two-column-section" id="interests"><div><h2 data-zh="技术基础与研究兴趣">Skills & Interests</h2><p><strong data-zh="技术基础：">Technical foundation:</strong> <span data-zh="C 基础嵌入式应用、Python 基础编程、Arduino、单片机实验与基础电路知识。">C for basic embedded applications, Python fundamentals, Arduino, microcontroller experimentation and basic circuit knowledge.</span></p><p><strong data-zh="研究兴趣：">Research interests:</strong> <span data-zh="计算机视觉、医学图像分析、具身智能与生物医学自动化。">Computer vision, medical image analysis, embodied intelligence and biomedical automation.</span></p><p><strong data-zh="语言：">Languages:</strong> <span data-zh="中文母语；英语 CET-4、CET-6。">Native Mandarin; English CET-4 and CET-6.</span></p></div><div><h2 data-zh="荣誉">Honours</h2><ul class="honour-list"><li data-zh="领导力奖学金">Leadership Scholarship</li><li data-zh="全面发展奖学金">All-round Development Scholarship</li></ul></div></section>
+
+    <section class="contact-section" id="contact"><h2 data-zh="联系">Contact</h2><p data-zh="欢迎交流科研实习、相关项目与学习机会。">I welcome conversations about research internships, related projects and opportunities to learn.</p><p><a href="mailto:3073028s@student.gla.ac.uk">3073028s@student.gla.ac.uk</a><span class="link-divider">/</span><button class="text-button" id="copy-email" data-zh="复制邮箱">Copy email</button><span id="copy-status" role="status"></span></p></section>
+  </main>
+  <footer><span>© 2026 Su Zirui</span><span data-zh="更新于 2026 年 10 月">Updated October 2026</span><a href="#home" data-zh="回到顶部 ↑">Back to top ↑</a></footer>
+</div>
+</body>
+</html>
