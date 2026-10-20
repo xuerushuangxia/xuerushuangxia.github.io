@@ -30,5 +30,16 @@ document.getElementById('copy-email').addEventListener('click', async () => {
   } catch { status.textContent = '3073028s@student.gla.ac.uk'; }
   setTimeout(() => { status.textContent = ''; }, 5000);
 });
+document.getElementById('copy-mini-entry').addEventListener('click', async () => {
+  const status = document.getElementById('mini-copy-status');
+  const entry = document.getElementById('lian-mini-code').textContent;
+  try {
+    await navigator.clipboard.writeText(entry);
+    status.textContent = language === 'zh' ? '已复制，请粘贴到微信聊天中打开' : 'Copied — paste into a WeChat chat';
+  } catch {
+    status.textContent = language === 'zh' ? '请选择并复制上方口令' : 'Select and copy the entry above';
+  }
+  setTimeout(() => { status.textContent = ''; }, 5000);
+});
 applyLanguage();
 openLinkedDetails();
